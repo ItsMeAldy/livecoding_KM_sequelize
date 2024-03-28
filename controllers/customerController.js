@@ -20,3 +20,5 @@ const createCustomer = async (req,res) => {
         console.log(err.message)
     }
 }
+
+module.exports = { createCustomer };
