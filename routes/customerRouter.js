@@ -1,6 +1,6 @@
-const router =require ("express").Router();
+const router = require ("express").Router();
 
-const customer = require("../controller/customerControllers");
+const Customer = require("../controllers/customerController");
 
 router.post("/",Customer.createCustomer);
 
